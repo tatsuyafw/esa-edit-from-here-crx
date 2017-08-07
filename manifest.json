@@ -1,0 +1,12 @@
+{
+	"manifest_version" : 2,
+	"name": "esa edit from here",
+  "version": "0.0.1",
+  "author": "tatsuyafw",
+  "content_scripts": [
+    {
+      "matches": [ "https://*.esa.io/posts/*" ],
+      "js": [ "lib/jquery-3.2.1.min.js", "lib/jquery.caret-0.3.1.min.js", "src/main.js" ]
+    }
+  ]
+}
